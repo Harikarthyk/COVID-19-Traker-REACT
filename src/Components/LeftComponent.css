@@ -1,0 +1,39 @@
+.LeftComponent__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+select {
+	width: 100%;
+	height: 35px;
+}
+.LeftComponent__title {
+	width: 100%;
+}
+.InfoBoxes__container:nth-child(2) {
+	margin: 0px 10px 0px 9px;
+}
+.InfoBoxes__container {
+	flex: 1;
+	border-radius: 3px;
+
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 1px 2px 0.2px black;
+}
+.InfoBoxes__title {
+	font-weight: 100;
+	font-size: initial;
+}
+.InfoBoxes__today {
+	font-weight: 700;
+	font-size: x-large;
+}
+.LeftComponent__stats {
+	display: flex;
+	justify-content: space-between;
+}
+.InfoBoxes__total {
+	font-weight: 300;
+}

@@ -1,0 +1,37 @@
+.RightComponent__wrapper {
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+}
+.RightComponent__container {
+	background-color: white;
+	/* padding: 15px; */
+	margin: 9px;
+	height: 39vh;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+div#RightComponent--country {
+	font-weight: 300;
+}
+
+div#RightComponent--cases {
+	font-weight: 600;
+}
+.RightComponent__tabel {
+	display: flex;
+	padding: 5px;
+	justify-content: space-between;
+}
+
+.RightComponent__title {
+	font-weight: 700;
+	font-size: large;
+}
+.RightComponent__tabel {
+	display: flex;
+	justify-content: space-between;
+}
+.RightComponent__tabel:nth-child(odd) {
+	background-color: #e7e7e7;
+}
